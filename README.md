@@ -95,23 +95,23 @@ resume-screener/
 
 ## 📸 Screenshots
 
-### 👋 Welcome Page
-screenshots/welcomepage.png
+👋 **Welcome Page**  
+![Welcome Page](./screenshots/welcomepage.png)
 
-### 🏠 Home Page
-./screenshots/homepage.png
+🏠 **Home Page**  
+![Home Page](./screenshots/homepage.png)
 
-### ℹ️ About Page
-./screenshots/aboutpage.png
+ℹ️ **About Page**  
+![About Page](./screenshots/aboutpage.png)
 
-### 📞 Contact Page
-./screenshots/contactpage.png
+📞 **Contact Page**  
+![Contact Page](./screenshots/contactpage.png)
 
-### 🔐 Login Page
-./screenshots/loginpage.png
+🔐 **Login Page**  
+![Login Page](./screenshots/loginpage.png)
 
-### 📝 Signup Page
-./screenshots/signuppage.png
+📝 **Signup Page**  
+![Signup Page](./screenshots/signuppage.png)
 
-### 📂 Resume Upload
-./screenshots/resumeupload.png
+📂 **Resume Upload**  
+![Resume Upload](./screenshots/resumeupload.png)
