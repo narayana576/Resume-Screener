@@ -99,19 +99,19 @@ resume-screener/
 screenshots/welcomepage.png
 
 ### 🏠 Home Page
-screenshots/homepage.png
+./screenshots/homepage.png
 
 ### ℹ️ About Page
-screenshots/aboutpage.png
+./screenshots/aboutpage.png
 
 ### 📞 Contact Page
-screenshots/contactpage.png
+./screenshots/contactpage.png
 
 ### 🔐 Login Page
-screenshots/loginpage.png
+./screenshots/loginpage.png
 
 ### 📝 Signup Page
-screenshots/signuppage.png
+./screenshots/signuppage.png
 
 ### 📂 Resume Upload
-screenshots/resumeupload.png
+./screenshots/resumeupload.png
