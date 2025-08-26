@@ -1,0 +1,66 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; 
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.gradient-title {
+  font-size: 2.8rem;
+  font-weight: 900;
+  background: linear-gradient(90deg, #ff6a00, #ee0979, #ff6a00, #ee0979);
+  background-size: 200% 200%;
+  animation: gradientShift 4s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  user-select: none;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.home-welcome-text {
+  font-size: 1.3rem;
+  color: #99ce11;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  user-select: none;
+  max-width: 600px;
+}
+
+.auth-button {
+  background: linear-gradient(135deg, #ee0979 15%, #ff6a00 85%);
+  border: none;
+  padding: 0.9rem 2.4rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 6px 14px #ff6a00aa;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+  letter-spacing: 1px;
+}
+
+.auth-button:hover,
+.auth-button:focus-visible {
+  background: linear-gradient(135deg, #ff6a00 15%, #ee0979 85%);
+  box-shadow: 0 10px 26px #ff6900cc;
+  outline: none;
+}

@@ -1,0 +1,23 @@
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Frontend (Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/.env.development
+
+# Backend (Spring Boot)
+backend/target/
+backend/.env
+backend/*.log
+
+# Logs & temp
+*.log
+*.tmp

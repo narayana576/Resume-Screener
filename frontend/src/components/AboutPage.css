@@ -1,0 +1,154 @@
+/* Container with gradient vibrant background */
+.aboutpage-container {
+  min-height: 100vh;
+  padding: 3rem 2rem 4rem;
+  background: linear-gradient(135deg, #6a11cb 10%, #2575fc 90%);
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+/* Hero section: big intro with shadowed text */
+.hero-section {
+  max-width: 900px;
+  margin-bottom: 3rem;
+  text-align: center;
+  user-select: none;
+}
+
+.hero-title {
+  font-size: 3.8rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  background: linear-gradient(90deg, #ffd54f, #ffa726);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 20px #e3a000cc;
+  margin-bottom: 0.4rem;
+}
+
+.hero-subtitle {
+  font-size: 1.4rem;
+  font-weight: 400;
+  opacity: 0.88;
+  letter-spacing: 1.2px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* Content section: flex column stacking cards */
+.content-section {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+  padding: 1rem 1.5rem;
+}
+
+/* Glass-card style */
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 28px;
+  padding: 2.2rem 3rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  border: 1.5px solid rgba(255, 255, 255, 0.18);
+  color: #f0f0f0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 400;
+  user-select: text;
+  transition: box-shadow 0.4s ease;
+  text-align: justify;
+  align-self: center;
+}
+
+.glass-card:hover {
+  box-shadow: 0 12px 48px 0 #927dfaaa;
+}
+
+/* Section titles inside cards */
+.section-title {
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  color: #ffcc29;
+  letter-spacing: 1.1px;
+  user-select: none;
+  text-shadow: 0 0 8px rgba(255, 170, 66, 0.67);
+  align-self: center;
+}
+
+/* Lists inside tech stack and uses */
+.glass-card ul {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  list-style-type: square;
+  color: #ffd96f;
+}
+
+.glass-card ul li {
+  margin-bottom: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Customize scrollbar for overflow if needed */
+.content-section {
+  scrollbar-width: thin;
+  scrollbar-color: #ffa72644 transparent;
+}
+
+.content-section::-webkit-scrollbar {
+  width: 7px;
+}
+
+.content-section::-webkit-scrollbar-thumb {
+  background-color: #ffa72644;
+  border-radius: 20px;
+}
+
+.content-section::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Responsive typography & layout */
+@media (max-width: 880px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  .glass-card {
+    padding: 1.6rem 2rem;
+    font-size: 1rem;
+  }
+  .section-title {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutpage-container {
+    padding: 2rem 1rem 3rem;
+  }
+  .content-section {
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  .hero-title {
+    font-size: 2.3rem;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  .section-title {
+    font-size: 1.4rem;
+  }
+}
